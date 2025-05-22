@@ -1,7 +1,7 @@
 variable "region" {
   description = "AWS region"
   type        = string
-  default     = "us-east-1"
+  default     = "us-east-1a"
 }
 
 variable "clusterName" {
@@ -9,4 +9,4 @@ variable "clusterName" {
   type        = string
   default     = "vprofile-eks"
 }
-##
+####
